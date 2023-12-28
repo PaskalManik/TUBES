@@ -1,0 +1,45 @@
+/* Reset Foundation */
+/* Tidak diperlukan jika sudah menggunakan Foundation */
+
+/* Navbar Styling */
+.top-bar {
+    width: 100%; /* Membuat navigasi memenuhi lebar layar */
+    background-color: #333; /* Ganti dengan warna latar yang diinginkan */
+    color: white; /* Ganti dengan warna teks yang diinginkan */
+}
+
+/* Menu Icon Styling */
+.toggle-topbar.menu-icon a span {
+    background-color: white; /* Ganti dengan warna ikon yang diinginkan */
+}
+
+/* Wrapper Styling */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.wrapper {
+    flex-grow: 1; /* Agar wrapper mengambil sisa ruang yang tersedia */
+    background-color: #fff;
+    width: 1000px;
+    margin: auto; /* Pusatkan wrapper */
+    border-radius: 16px;
+    padding: 10px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.4);
+}
+
+/* H2 dan HR Styling tetap sama */
+/* Members dan Team-mem Styling tetap sama */
+
+.team-mem img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    border-width: 2px;
+    margin: 15px;
+}
+
+/* H4 dan P Styling tetap sama */

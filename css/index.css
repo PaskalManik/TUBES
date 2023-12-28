@@ -1,0 +1,5 @@
+footer ul.list-unstyled li a:hover {
+    color: #ffc107; /* Warna teks saat dihover */
+    text-decoration: none; /* Hilangkan garis bawah saat dihover */
+    transition: color 0.3s ease-in-out; /* Efek transisi */
+  }
